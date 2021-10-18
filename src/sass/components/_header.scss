@@ -1,0 +1,36 @@
+.header-container {
+  @extend %container;
+}
+.header-items {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo_menu {
+  display: flex;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 16px;
+}
+
+.header-logo_menu li:not(:last-child) {
+  padding-right: 18px;
+}
+
+.header-profile_menu {
+  display: flex;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 16px;
+}
+
+.header-profile_menu li:not(:last-child) {
+  padding-right: 20px;
+}
+
+.header-form {
+  width: 100%;
+  height: 40px;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 12px 15px;
+}
